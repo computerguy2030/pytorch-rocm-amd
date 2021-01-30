@@ -1,7 +1,7 @@
 ![PyTorch Logo](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.png)
 
 --------------------------------------------------------------------------------
-<h2>MY FORK (building for AMD):
+<h2>MY FORK (building for AMD): </h2>
   READ: [a relative link](MY_FORK)
 
 --------------------------------------------------------------------------------
