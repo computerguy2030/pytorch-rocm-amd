@@ -4,9 +4,9 @@
 I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassle I endured.
 
 <h3>Information: </h3>
-Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternative to CUDA which is unfortunatly not widely used. AMD's official Pytorch/ROCM documentaion unfortunatly only provides docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet:
-* https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs
-* https://lernapparat.de/pytorch-rocm/
+Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternative to CUDA which is unfortunatly not widely used. AMD's official Pytorch/ROCM documentaion unfortunatly only provides docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
+* https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs <br>
+* https://lernapparat.de/pytorch-rocm/ <br>
 
 
 <h3>Instructions: </h3>
@@ -123,10 +123,10 @@ torch.cuda.current_device()
 <h3>Information: (My current understanding)</h3>
 Running CUDA programs on AMD:
 One can run CUDA programs on AMD cards by using HIPify tool which converts CUDA to HIP language (technically C++ Runtime API). HIP is a thin layer where code is either translated to CUDA API and compiled with nvcc on Nvidia or compiled for ROCm on AMD with the HCC compiler. HCC is an open source C++ compiler. The hipcc compiler will "call the appropriate toolchain depending on the desired platform". Converting CUDA to HIP theoretically has little to no impact on NVIDIA performance while allowing code to be run on both platforms; however, you may mix CUDA and HIP code. <br> 
-Links:
-HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html
-HCC: https://github.com/RadeonOpenCompute/hcc
-HIP:https://github.com/ROCm-Developer-Tools/HIP
+Links: <br>
+HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
+HCC: https://github.com/RadeonOpenCompute/hcc <br>
+HIP:https://github.com/ROCm-Developer-Tools/HIP <br>
 <br><br>
 ROCM:
 rocm is essentially the AMD version of CUDA.
