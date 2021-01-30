@@ -1,9 +1,17 @@
 ![PyTorch Logo](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.png)
 
 --------------------------------------------------------------------------------
-<h2>MY FORK (building for AMD): </h2>
-![READ](./MY_FORK.md)
+<h1>My Fork </h1>
 
+<h3>Changes: </h3>
+
+This fork contains instructions for building Pytorch nativly on AMD: <br>
+[Pytorch on AMD Info/Instructions](MY_FORK.md)
+
+[Install Script](amd_build_script.sh)
+
+ **Below is unmodified Pytorch README:**
+ 
 --------------------------------------------------------------------------------
 PyTorch is a Python package that provides two high-level features:
 - Tensor computation (like NumPy) with strong GPU acceleration
