@@ -5,6 +5,7 @@ I am creating this fork to create a simple guide for installing pytorch on AMD c
 
 <h3>Information: </h3>
 Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternative to CUDA which is unfortunatly not widely used. AMD's official Pytorch/ROCM documentaion unfortunatly only provides docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
+
 * https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs <br>
 * https://lernapparat.de/pytorch-rocm/ <br>
 
