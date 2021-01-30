@@ -2,8 +2,7 @@
 
 --------------------------------------------------------------------------------
 <h2>MY FORK (building for AMD): </h2>
-  READ:
-  [a relative link](MY_FORK.md)
+  READ: (MY_FORK.md)
 
 --------------------------------------------------------------------------------
 PyTorch is a Python package that provides two high-level features:
