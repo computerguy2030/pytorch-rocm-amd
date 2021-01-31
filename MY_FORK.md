@@ -159,7 +159,11 @@ rocm is essentially the AMD version of CUDA.
 * Dependency issues try: pip install -r requirements.txt from root pytorch folder
 
 <h3>Uninstall: </h3>
+ROCm:
 
+    sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils
+     
+    sudo reboot
 
 <br>
 <h3>Usefull Tools </h3>
@@ -168,5 +172,6 @@ rocm is essentially the AMD version of CUDA.
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODIxMDA0LC0xNTg4MzA4MzAzXX0=
+eyJoaXN0b3J5IjpbLTE4MTMwMzEwNiwtOTk4MjEwMDQsLTE1OD
+gzMDgzMDNdfQ==
 -->
