@@ -150,10 +150,9 @@ rocm is essentially the AMD version of CUDA.
 
 <h3>Troubleshoot: </h3>
 
-* To continue script from specific line: 
+* To continue script from specific line:
 
-
-    tail -n +40 /home/$USER/Downloads/amd_build_script.sh | bash
+    tail -n +(line number) /home/$USER/Downloads/amd_build_script.sh | bash
     
 
 <br>
@@ -174,6 +173,6 @@ ROCm:
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMDQzNjgsLTk5ODIxMDA0LC0xNTg4Mz
-A4MzAzXX0=
+eyJoaXN0b3J5IjpbLTE4MjY1NTM3MTQsLTk5ODIxMDA0LC0xNT
+g4MzA4MzAzXX0=
 -->
