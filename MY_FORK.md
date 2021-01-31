@@ -157,7 +157,7 @@ rocm is essentially the AMD version of CUDA.
 * Most issues I found were caused by dependency issues
 
 * Dependency issues try: `pip install -r requirements.txt` from root pytorch folder
-
+* 
 
 <br>
 <h3>Uninstall: </h3>
@@ -183,6 +183,6 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjAzNjUyMiwxMzQ5MjU3NDg5LC05OT
-gyMTAwNCwtMTU4ODMwODMwM119
+eyJoaXN0b3J5IjpbODE4MjAyOCwtNzU2MDM2NTIyLDEzNDkyNT
+c0ODksLTk5ODIxMDA0LC0xNTg4MzA4MzAzXX0=
 -->
