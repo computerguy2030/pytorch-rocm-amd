@@ -73,7 +73,7 @@ You should see information about your card
 export PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin
 echo 'PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin' >> ~/.bashrc
 ```
-
+--------------------------------------------------------------------------------------
 * Reboot
 
 <br>
@@ -85,11 +85,13 @@ cd pytorch-rocm-amd
 git submodule sync
 git submodule update --init --recursive
 ```
+<br>
 
 **3. "Hipify" code**
 ```
 python3 tools/amd_build/build_amd.py
 ```
+<br>
 
 **4. Create .whl (pip)**
 * Install additional packages:
@@ -160,5 +162,5 @@ rocm is essentially the AMD version of CUDA.
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDUzOTYxOV19
+eyJoaXN0b3J5IjpbLTIyNjQ2MTg5M119
 -->
