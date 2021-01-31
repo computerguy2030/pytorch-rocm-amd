@@ -152,7 +152,9 @@ rocm is essentially the AMD version of CUDA.
 
 * To continue script from specific line: 
 
-    tail
+
+    tail -n +40 /home/$USER/Downloads/amd_build_script.sh | bash
+    
 
 <br>
 
@@ -162,7 +164,7 @@ rocm is essentially the AMD version of CUDA.
 ROCm:
 
     sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
-    d
+     d
     sudo reboot
 
 <br>
@@ -172,6 +174,6 @@ ROCm:
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzA5MDQ0MSwtOTk4MjEwMDQsLTE1OD
-gzMDgzMDNdfQ==
+eyJoaXN0b3J5IjpbODAwMDQzNjgsLTk5ODIxMDA0LC0xNTg4Mz
+A4MzAzXX0=
 -->
