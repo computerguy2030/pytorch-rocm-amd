@@ -166,6 +166,14 @@ ROCm:
     sudo reboot
 Pytorch:
 
+    #find with:
+    import torch
+    print(torch.__file__)
+
+In my case:
+
+    sudo rm -r /usr/local/lib/python3.6/dist-packages/torch*
+
 <br>
 <h3>Usefull Tools </h3>
 
@@ -174,6 +182,6 @@ Pytorch:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ0Nzc0NzYsMTM0OTI1NzQ4OSwtOT
-k4MjEwMDQsLTE1ODgzMDgzMDNdfQ==
+eyJoaXN0b3J5IjpbODYzNjI2MzI0LDEzNDkyNTc0ODksLTk5OD
+IxMDA0LC0xNTg4MzA4MzAzXX0=
 -->
