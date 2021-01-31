@@ -9,7 +9,7 @@ Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternati
 * https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs <br>
 * https://lernapparat.de/pytorch-rocm/ <br>
 
-
+<br>
 <h3>Instructions: </h3>
 
 * Script included in repository:
@@ -162,5 +162,5 @@ rocm is essentially the AMD version of CUDA.
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk5NDUxODFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODgzMDgzMDNdfQ==
 -->
