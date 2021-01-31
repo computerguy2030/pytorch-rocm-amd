@@ -127,13 +127,14 @@ torch.cuda.current_device()
 Running CUDA programs on AMD:
 One can run CUDA programs on AMD cards by using HIPify tool which converts CUDA to HIP language (technically C++ Runtime API). HIP is a thin layer where code is either translated to CUDA API and compiled with nvcc on Nvidia or compiled for ROCm on AMD with the HCC compiler. HCC is an open source C++ compiler. The hipcc compiler will "call the appropriate toolchain depending on the desired platform". Converting CUDA to HIP theoretically has little to no impact on NVIDIA performance while allowing code to be run on both platforms; however, you may mix CUDA and HIP code. <br> 
 Links: <br>
+
 * HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
 * HCC: https://github.com/RadeonOpenCompute/hcc <br>
 * HIP:https://github.com/ROCm-Developer-Tools/HIP <br>
 <br><br>
 ROCM:
 rocm is essentially the AMD version of CUDA.
-
+<br>
 
 <h3>Troubleshoot: </h3>
 
