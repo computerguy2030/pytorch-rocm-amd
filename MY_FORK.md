@@ -163,8 +163,8 @@ rocm is essentially the AMD version of CUDA.
 ROCm:
 
     sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
-    sudo rm -r torch*
     sudo reboot
+Pytorch:
 
 <br>
 <h3>Usefull Tools </h3>
@@ -174,6 +174,6 @@ ROCm:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTg5MDM3OCwxMzQ5MjU3NDg5LC05OT
-gyMTAwNCwtMTU4ODMwODMwM119
+eyJoaXN0b3J5IjpbLTE3OTQ0Nzc0NzYsMTM0OTI1NzQ4OSwtOT
+k4MjEwMDQsLTE1ODgzMDgzMDNdfQ==
 -->
