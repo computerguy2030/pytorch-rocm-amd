@@ -25,9 +25,9 @@ https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html#su
 
 * apt install:
 ```
-sudo apt update
-sudo apt dist-upgrade
-sudo apt install libnuma-dev
+sudo apt update && sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt install libnuma-dev -y
 sudo reboot
 ```
 ```
@@ -36,7 +36,7 @@ echo 'deb [arch=amd64] https://repo.radeon.com/rocm/apt/debian/ xenial main' | s
 ```
 ```
 sudo apt update
-sudo apt install rocm-dkms && sudo reboot
+sudo apt install rocm-dkms -y && sudo reboot
 ```
 --------------------------------------------------------------------------------------
 * Create "video" and "render" groups for permissions:
@@ -57,13 +57,15 @@ echo 'EXTRA_GROUPS=video' | sudo tee -a /etc/adduser.conf
 ```
 echo 'EXTRA_GROUPS=render' | sudo tee -a /etc/adduser.conf
 ```
+Restart
+
 --------------------------------------------------------------------------------------
 * Test:
 ```
-/opt/rocm/bin/rocminfo
-/opt/rocm/opencl/bin/clinfo
+sudo /opt/rocm/bin/rocminfo
+sudo /opt/rocm/opencl/bin/clinfo
 ```
-You should see output
+You should see information about your card
 
 --------------------------------------------------------------------------------------
 * Add to PATH and end of bashrc:
@@ -125,18 +127,21 @@ torch.cuda.current_device()
 Running CUDA programs on AMD:
 One can run CUDA programs on AMD cards by using HIPify tool which converts CUDA to HIP language (technically C++ Runtime API). HIP is a thin layer where code is either translated to CUDA API and compiled with nvcc on Nvidia or compiled for ROCm on AMD with the HCC compiler. HCC is an open source C++ compiler. The hipcc compiler will "call the appropriate toolchain depending on the desired platform". Converting CUDA to HIP theoretically has little to no impact on NVIDIA performance while allowing code to be run on both platforms; however, you may mix CUDA and HIP code. <br> 
 Links: <br>
-HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
-HCC: https://github.com/RadeonOpenCompute/hcc <br>
-HIP:https://github.com/ROCm-Developer-Tools/HIP <br>
+* HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
+* HCC: https://github.com/RadeonOpenCompute/hcc <br>
+* HIP:https://github.com/ROCm-Developer-Tools/HIP <br>
 <br><br>
 ROCM:
 rocm is essentially the AMD version of CUDA.
 
 
 <h3>Troubleshoot: </h3>
+
 * Dependency issues try: pip install -r requirements.txt from root pytorch folder
 
+<br>
 <h3>Usefull Tools </h3>
+
 * radeontop (monitor AMD usage like nvidia-smi)
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
