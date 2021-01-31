@@ -57,7 +57,7 @@ echo 'EXTRA_GROUPS=video' | sudo tee -a /etc/adduser.conf
 ```
 echo 'EXTRA_GROUPS=render' | sudo tee -a /etc/adduser.conf
 ```
-Restart
+* Restart
 
 --------------------------------------------------------------------------------------
 * Test:
@@ -76,7 +76,7 @@ echo 'PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin' >
 --------------------------------------------------------------------------------------
 * Reboot
 
-<br>
+<br><br>
 
 **2. Clone Pytorch**
 ```
@@ -162,5 +162,5 @@ rocm is essentially the AMD version of CUDA.
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjQ2MTg5M119
+eyJoaXN0b3J5IjpbLTE1Mjk5NDUxODFdfQ==
 -->
