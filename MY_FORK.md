@@ -161,7 +161,8 @@ rocm is essentially the AMD version of CUDA.
 <h3>Uninstall: </h3>
 ROCm:
 
-    sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils
+    sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
+    
      
     sudo reboot
 
@@ -172,6 +173,6 @@ ROCm:
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMwMzEwNiwtOTk4MjEwMDQsLTE1OD
-gzMDgzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjYyODAzNzEsLTk5ODIxMDA0LC0xNT
+g4MzA4MzAzXX0=
 -->
