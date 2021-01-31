@@ -160,9 +160,9 @@ rocm is essentially the AMD version of CUDA.
 * Dependency issues try: `pip install -r requirements.txt` from root pytorch folder
 * If script fails or is interrupted and you cannot get to bash upon opening terminal, remove last line in ~/.bashrc by:
 
-Under Edit--> Preferences--> Command
-Check "Run a custom command instead of my shell"
-Enter /bin/bash --norc
+Under Edit--> Preferences--> Command <br>
+Check "Run a custom command instead of my shell" <br>
+Enter /bin/bash --norc <br>
 
 <br>
 <h3>Uninstall: </h3>
@@ -188,5 +188,5 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDYwMDk2LDEwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
 -->
