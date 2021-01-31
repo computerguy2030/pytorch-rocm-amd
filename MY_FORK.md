@@ -152,10 +152,7 @@ rocm is essentially the AMD version of CUDA.
 
 * To continue script from specific line:
 
-    tail -n +(line number) /home/$USER/Downloads/amd_build_script.sh | bash
-    
-
-<br>
+    tail -n +40 /home/$USER/Downloads/amd_build_script.sh | bash
 
 * Dependency issues try: pip install -r requirements.txt from root pytorch folder
 
@@ -173,6 +170,6 @@ ROCm:
 * bpytop (Cool CPU monitoring tool)
 * rocminfo (built into ROCm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY1NTM3MTQsLTk5ODIxMDA0LC0xNT
-g4MzA4MzAzXX0=
+eyJoaXN0b3J5IjpbLTM3MjkxNDE5OCwtOTk4MjEwMDQsLTE1OD
+gzMDgzMDNdfQ==
 -->
