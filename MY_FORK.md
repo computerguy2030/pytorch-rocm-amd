@@ -130,8 +130,8 @@ Links: <br>
 
 * HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
 * HCC: https://github.com/RadeonOpenCompute/hcc <br>
-* HIP:https://github.com/ROCm-Developer-Tools/HIP <br>
-<br><br>
+* HIP: https://github.com/ROCm-Developer-Tools/HIP <br>
+<br>
 ROCM:
 rocm is essentially the AMD version of CUDA.
 <br>
