@@ -120,6 +120,7 @@ sudo pip3 install dist/*.whl
 <br>
 
 **6. Test pytorch**
+Note: Do not execute in github folder
 ```
 python3
 import torch  ## (no errors)
@@ -183,6 +184,6 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MjAyOCwtNzU2MDM2NTIyLDEzNDkyNT
-c0ODksLTk5ODIxMDA0LC0xNTg4MzA4MzAzXX0=
+eyJoaXN0b3J5IjpbMTA3MzUxMDE2NywtNzU2MDM2NTIyLDEzND
+kyNTc0ODksLTk5ODIxMDA0LC0xNTg4MzA4MzAzXX0=
 -->
