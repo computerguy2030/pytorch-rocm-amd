@@ -71,7 +71,11 @@ You should see information about your card
 * Add to PATH and end of bashrc:
 ```
 export PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin
+echo 'PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin' >> ~/.bashrc
 ```
+
+* Reboot
+
 <br>
 
 **2. Clone Pytorch**
@@ -90,15 +94,21 @@ python3 tools/amd_build/build_amd.py
 **4. Create .whl (pip)**
 * Install additional packages:
 ```
-sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip
-sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
+sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip 
+sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust 
+pip3 install dataclasses
 ```
 --------------------------------------------------------------------------------------
-* Create .whl: <br>
+* Create .whl: (Where errors most occur)<br>
 Note: Only use "PYTORCH_ROCM_ARCH=gfx900" if you have Vega 56/64 card. Simply delete PYTORCH_ROCM_ARCH to compile for all platforms or execute /opt/rocm/bin/rocm_agent_enumerator to find your arch and replace accordingly.
 ```
 RCCL_DIR=/opt/rocm/rccl/lib/cmake/rccl/ PYTORCH_ROCM_ARCH=gfx900 hip_DIR=/opt/rocm/hip/cmake/ USE_NVCC=OFF BUILD_CAFFE2_OPS=0 PATH=/usr/lib/ccache/:$PATH USE_CUDA=OFF python3 setup.py bdist_wheel
 ```
+Note:
+If compiler fails, due to dependancy issues etc. use:
+<br>```make clean``` 
+before restarting compilation
+
 <br>
 
 **5. Install with pip**
@@ -139,6 +149,9 @@ rocm is essentially the AMD version of CUDA.
 <h3>Troubleshoot: </h3>
 
 * Dependency issues try: pip install -r requirements.txt from root pytorch folder
+
+<h3>Uninstall: </h3>
+
 
 <br>
 <h3>Usefull Tools </h3>
