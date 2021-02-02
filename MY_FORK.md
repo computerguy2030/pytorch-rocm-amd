@@ -104,10 +104,7 @@ sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip
 sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust 
 pip3 install -r requirements.txt
 ```
-If you forget a package or must install additional packages, you must use 
-
-    make clean
-before restarting compila
+* If you forget a package or must install additional packages, you must use: `make clean` before restarting compilation
 
 --------------------------------------------------------------------------------------
 * Create .whl: (Where errors most occur)<br>
@@ -197,6 +194,6 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTU5MTk1MCwyMTI3NzY2MjIxLDg2Nj
-A3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTEyOTM5MTcxMTIsMjEyNzc2NjIyMSw4Nj
+YwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
 -->
