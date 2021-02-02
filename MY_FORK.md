@@ -102,8 +102,13 @@ python3 tools/amd_build/build_amd.py
 ```
 sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip 
 sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust 
-pip3 install dataclasses
+pip3 install -r requirements.txt
 ```
+If you forget a package or must install additional packages, you must use 
+
+    make clean
+before restarting compila
+
 --------------------------------------------------------------------------------------
 * Create .whl: (Where errors most occur)<br>
 Note: Only use "PYTORCH_ROCM_ARCH=gfx900" if you have Vega 56/64 card. Simply delete PYTORCH_ROCM_ARCH to compile for all platforms or execute /opt/rocm/bin/rocm_agent_enumerator to find your arch and replace accordingly.
@@ -192,6 +197,6 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzc2NjIyMSw4NjYwNzEyNjcsLTg1OD
-Q5NjEzNiwxMDIyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbMTU1OTU5MTk1MCwyMTI3NzY2MjIxLDg2Nj
+A3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
