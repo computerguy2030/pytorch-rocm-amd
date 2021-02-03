@@ -181,8 +181,12 @@ Check "Run a custom command instead of my shell" <br>
 Enter /bin/bash --norc <br><br>
 
 * Check installed kernels:
+```
+dpkg --list | grep linux-image
+```
+* Set default kernel: 
+    grub-set-default 
 
-    dpkg --list | grep linux-image
 <br>
 
 * If during compiling you receive error:
@@ -221,8 +225,8 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
-gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
-MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMT
-AyMjAxNTkxOF19
+eyJoaXN0b3J5IjpbNjY2NzA5NjI1LDI3OTMyNDA4NCwyMDg3OD
+k2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQy
+MCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3MTI2NywtOD
+U4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
