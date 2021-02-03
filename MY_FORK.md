@@ -170,7 +170,7 @@ Under Edit--> Preferences--> Command <br>
 Check "Run a custom command instead of my shell" <br>
 Enter /bin/bash --norc <br>
 
-If you receive error:
+If during compiling you receive error:
 
     ERROR: Cannot create report: [Errno 17] File exists: '/var/crash/rock-dkms-firmware.0.crash'
     Error! Bad return status for module build on kernel: 5.8.0-41-generic (x86_64)
@@ -180,7 +180,7 @@ If you receive error:
     dpkg: dependency problems prevent configuration of rocm-dkms:
      rocm-dkms depends on rock-dkms; however:
       Package rock-dkms is not configured yet.
-You are probably don't have ROCm properly installed likely due to having kernels other than 5.4 installed. Uninstall all other kernels, make sure rocm info command works
+You are probably don't have ROCm properly installed likely due to having kernels other than 5.4 installed. Uninstall all other kernels, make sure `rocm info` command works, and retry compilation. 
 <br>
 
 <h3>Uninstall: </h3>
@@ -206,7 +206,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjIxODM0NiwtMTI5MzkxNzExMiwyMT
+eyJoaXN0b3J5IjpbLTM1NTQ0MjA4NSwtMTI5MzkxNzExMiwyMT
 I3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5
 MThdfQ==
 -->
