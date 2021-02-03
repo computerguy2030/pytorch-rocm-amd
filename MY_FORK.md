@@ -170,8 +170,20 @@ Under Edit--> Preferences--> Command <br>
 Check "Run a custom command instead of my shell" <br>
 Enter /bin/bash --norc <br>
 
+If you receive error:
+
+    ERROR: Cannot create report: [Errno 17] File exists: '/var/crash/rock-dkms-firmware.0.crash'
+    Error! Bad return status for module build on kernel: 5.8.0-41-generic (x86_64)
+    Consult /var/lib/dkms/amdgpu/4.0-23/build/make.log for more information.
+    dpkg: error processing package rock-dkms (--configure):
+     installed rock-dkms package post-installation script subprocess returned error exit status 10
+    dpkg: dependency problems prevent configuration of rocm-dkms:
+     rocm-dkms depends on rock-dkms; however:
+      Package rock-dkms is not configured yet.
+You are problably not using the 
 <br>
-<h3>Uninstall: </h3>
+<
+h3>Uninstall: </h3>
 ROCm:
 
     sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
@@ -194,6 +206,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM5MTcxMTIsMjEyNzc2NjIyMSw4Nj
-YwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbMjAzMjUxNTcyLC0xMjkzOTE3MTEyLDIxMj
+c3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAxNTkx
+OF19
 -->
