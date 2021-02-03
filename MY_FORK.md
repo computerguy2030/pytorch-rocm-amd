@@ -11,6 +11,7 @@ Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternati
 
 <br>
 <h3>Instructions: </h3>
+**These instructions/scripts were tested with fresh installs of Ubuntu 18 and 20 so if it does'nt work its proboably your configuration's fault.**
 
 * Scripts:
 	included in repository: one concise and one verbose output (Note must uncomment lines for Ubuntu 20 accordingly)
@@ -226,8 +227,8 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwOD
-c4OTY2MzgsLTEyMzgyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3
-NDIwLC0xMjkzOTE3MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC
-04NTg0OTYxMzYsMTAyMjAxNTkxOF19
+eyJoaXN0b3J5IjpbLTkxOTgxNDUwLC0xMDQzODI0MjEzLDI3OT
+MyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5
+MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLD
+g2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
