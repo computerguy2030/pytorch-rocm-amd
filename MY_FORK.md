@@ -17,11 +17,12 @@ Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternati
 
     tails ..............
 
-1. Install ROCM: <br>
-2. Clone Pytorch <br>
-3. "Hipify" code <br>
-4. Create .whl (pip) <br>
-5. Install with pip <br>
+1. Check requirements
+2. Install ROCM: <br>
+3. Clone Pytorch <br>
+4. "Hipify" code <br>
+5. Create .whl (pip) <br>
+6. Install with pip <br>
 <br>
 
 **1. Install ROCM (Copied from AMD documentation)** <br>
@@ -168,9 +169,9 @@ rocm is essentially the AMD version of CUDA.
 
 Under Edit--> Preferences--> Command <br>
 Check "Run a custom command instead of my shell" <br>
-Enter /bin/bash --norc <br>
+Enter /bin/bash --norc <br><br>
 
-If during compiling you receive error:
+* If during compiling you receive error:
 
     ERROR: Cannot create report: [Errno 17] File exists: '/var/crash/rock-dkms-firmware.0.crash'
     Error! Bad return status for module build on kernel: 5.8.0-41-generic (x86_64)
@@ -206,7 +207,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTQ0MjA4NSwtMTI5MzkxNzExMiwyMT
+eyJoaXN0b3J5IjpbLTE4NTQzNjMxNSwtMTI5MzkxNzExMiwyMT
 I3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5
 MThdfQ==
 -->
