@@ -14,8 +14,10 @@ Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternati
 
 * 2 scripts included in repository: one concise and one verbose output (Note must uncomment lines for Ubuntu 20 accordingly)
 * If you already installed ROCm use:
-
     tails ..............
+
+<h3>Requirements </h3>
+You must uninstall all other kernels except 5.4 or ROCm will not install. 
 
 1. Install ROCM: <br>
 3. Clone Pytorch <br>
@@ -206,7 +208,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNjY2NDYyLC0xMjkzOTE3MTEyLDIxMj
+eyJoaXN0b3J5IjpbNDQwMTcwNzc0LC0xMjkzOTE3MTEyLDIxMj
 c3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAxNTkx
 OF19
 -->
