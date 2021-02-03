@@ -17,7 +17,7 @@ Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternati
     tails ..............
 
 <h3>Requirements </h3>
-You must uninstall all other kernels except 5.4 or ROCm will not install. 
+You must uninstall all other kernels except 5.4 or ROCm will not install. I have found that ROCm commands still work if you reinstall and boot to 
 
 1. Install ROCM: <br>
 3. Clone Pytorch <br>
@@ -208,7 +208,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTcwNzc0LC0xMjkzOTE3MTEyLDIxMj
-c3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAxNTkx
-OF19
+eyJoaXN0b3J5IjpbLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMj
+EyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1
+OTE4XX0=
 -->
