@@ -180,6 +180,11 @@ Under Edit--> Preferences--> Command <br>
 Check "Run a custom command instead of my shell" <br>
 Enter /bin/bash --norc <br><br>
 
+* Check installed kernels:
+
+    dpkg --list | grep linux-image
+    
+
 * If during compiling you receive error:
 
     ERROR: Cannot create report: [Errno 17] File exists: '/var/crash/rock-dkms-firmware.0.crash'
@@ -216,8 +221,8 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1Mj
-I2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2
-NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX
-0=
+eyJoaXN0b3J5IjpbLTEyNTgyOTIzMTQsMjA4Nzg5NjYzOCwtMT
+IzODIxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5
+MTcxMTIsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNi
+wxMDIyMDE1OTE4XX0=
 -->
