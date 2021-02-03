@@ -180,7 +180,7 @@ If you receive error:
     dpkg: dependency problems prevent configuration of rocm-dkms:
      rocm-dkms depends on rock-dkms; however:
       Package rock-dkms is not configured yet.
-You are problably don't have rocm properly installed likely due to having 
+You are probably don't have ROCm properly installed likely due to having kernels other than 5.4 installed. Uninstall all other kernels, make sure rocm info command works
 <br>
 
 <h3>Uninstall: </h3>
@@ -206,7 +206,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk2ODc5OTQsLTEyOTM5MTcxMTIsMj
-EyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1
-OTE4XX0=
+eyJoaXN0b3J5IjpbMTczNjIxODM0NiwtMTI5MzkxNzExMiwyMT
+I3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5
+MThdfQ==
 -->
