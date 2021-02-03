@@ -192,7 +192,7 @@ grub-set-default
 <br>
 
 * If during compiling you receive error:
-
+```
     ERROR: Cannot create report: [Errno 17] File exists: '/var/crash/rock-dkms-firmware.0.crash'
     Error! Bad return status for module build on kernel: 5.8.0-41-generic (x86_64)
     Consult /var/lib/dkms/amdgpu/4.0-23/build/make.log for more information.
@@ -200,7 +200,8 @@ grub-set-default
      installed rock-dkms package post-installation script subprocess returned error exit status 10
     dpkg: dependency problems prevent configuration of rocm-dkms:
      rocm-dkms depends on rock-dkms; however:
-      Package rock-dkms is not configured yet.
+      Package rock-dkms is not configured yet. 
+ ```
 You are probably don't have ROCm properly installed likely due to having kernels other than 5.4 installed. Uninstall all other kernels, make sure `rocm info` command works, and retry compilation. 
 <br>
 
@@ -227,9 +228,9 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzQyODgyNCwtMTM2ODg0ODI0NCwtMT
-A0MzgyNDIxMywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzODIx
-MDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMT
-IsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIy
-MDE1OTE4XX0=
+eyJoaXN0b3J5IjpbMTY5OTkwNzk2LC0xMzY4ODQ4MjQ0LC0xMD
+QzODI0MjEzLDI3OTMyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEw
+Mzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMi
+wyMTI3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIw
+MTU5MThdfQ==
 -->
