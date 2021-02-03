@@ -184,7 +184,7 @@ Enter /bin/bash --norc <br><br>
 ```
 dpkg --list | grep linux-image
 ```
-* Set default kernel: (Must set GRUB_DEFAULT=saved /etc/defaults/grub
+* Set default kernel: (Must set `GRUB_DEFAULT=saved` in /etc/default/grub
 ```
 grub-set-default 
 ```
@@ -226,8 +226,8 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMjkzODQ5LDI3OTMyNDA4NCwyMDg3OD
-k2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQy
-MCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3MTI2NywtOD
-U4NDk2MTM2LDEwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwOD
+c4OTY2MzgsLTEyMzgyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3
+NDIwLC0xMjkzOTE3MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC
+04NTg0OTYxMzYsMTAyMjAxNTkxOF19
 -->
