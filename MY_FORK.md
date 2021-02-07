@@ -160,7 +160,7 @@ Links: <br>
 
 * HIP FAQ: https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-FAQ.html <br>
 * HCC: https://github.com/RadeonOpenCompute/hcc <br>
-* HIP: https://github.com/ROCm-Developer-Tools/HIP <br>
+* HIP: https://github.com/ROCm-Developer-Tools/HIP
 <br>
 ROCM:
 rocm is essentially the AMD version of CUDA.
@@ -231,10 +231,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDIzMzg1MywtNzAwMjY0MzksLTc3Mj
-k2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQs
-LTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
-gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
-MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMT
-AyMjAxNTkxOF19
+eyJoaXN0b3J5IjpbLTcxNTgwMTgyOSwxNzE0MjMzODUzLC03MD
+AyNjQzOSwtNzcyOTYzODUsNTAyMTY4MjY5LDMxNjI2MDgyMCwt
+MTM2ODg0ODI0NCwtMTA0MzgyNDIxMywyNzkzMjQwODQsMjA4Nz
+g5NjYzOCwtMTIzODIxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0
+MjAsLTEyOTM5MTcxMTIsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLT
+g1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
 -->
