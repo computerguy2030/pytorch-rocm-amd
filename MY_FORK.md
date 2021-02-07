@@ -119,12 +119,12 @@ pip3 install -r requirements.txt
 
 --------------------------------------------------------------------------------------
 * Create .whl: (Where errors most occur)<br>
-Note: Only use "PYTORCH_ROCM_ARCH=gfx900" if you have Vega 56/64 card. Simply delete PYTORCH_ROCM_ARCH to compile for all platforms or execute /opt/rocm/bin/rocm_agent_enumerator to find your arch and replace accordingly.
+Note: Only use "PYTORCH_ROCM_ARCH=gfx900" if you have Vega 56/64 card. Simply delete PYTORCH_ROCM_ARCH to compile for all platforms. or execute /opt/rocm/bin/rocm_agent_enumerator to find your arch. Then replace accordingly.
 ```
 RCCL_DIR=/opt/rocm/rccl/lib/cmake/rccl/ PYTORCH_ROCM_ARCH=gfx900 hip_DIR=/opt/rocm/hip/cmake/ USE_NVCC=OFF BUILD_CAFFE2_OPS=0 PATH=/usr/lib/ccache/:$PATH USE_CUDA=OFF python3 setup.py bdist_wheel
 ```
 Note:
-If compiler fails, due to dependancy issues etc. use:
+If compiler fails, due to dependency issues etc. use:
 <br>```make clean``` 
 before restarting compilation
 
@@ -228,10 +228,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDI2NDM5LC03NzI5NjM4NSw1MDIxNj
-gyNjksMzE2MjYwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEz
-LDI3OTMyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMj
-YwNTc5MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2
-MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ
-==
+eyJoaXN0b3J5IjpbMTc3MzU2NzIzMSwtNzAwMjY0MzksLTc3Mj
+k2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQs
+LTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
+gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
+MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMT
+AyMjAxNTkxOF19
 -->
