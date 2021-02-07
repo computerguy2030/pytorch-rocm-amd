@@ -102,7 +102,7 @@ This clones my fork; however, the main pytorch branch works too as of 2-7-2020
 <br>
 
 **3. "Hipify" code**
-Converts all CUDA instructions to HIP
+Converts all CUDA instructions to HIP.
 ```
 python3 tools/amd_build/build_amd.py
 ```
@@ -111,7 +111,7 @@ python3 tools/amd_build/build_amd.py
 **4. Create .whl (pip)**
 * Install additional packages:
 ```
-sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip python-is-python3
+sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip 
 sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust 
 pip3 install -r requirements.txt
 ```
@@ -228,10 +228,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk3MDk5OCwtNzcyOTYzODUsNTAyMT
-Y4MjY5LDMxNjI2MDgyMCwtMTM2ODg0ODI0NCwtMTA0MzgyNDIx
-MywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1Mj
-I2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2
-NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX
-0=
+eyJoaXN0b3J5IjpbLTcwMDI2NDM5LC03NzI5NjM4NSw1MDIxNj
+gyNjksMzE2MjYwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEz
+LDI3OTMyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMj
+YwNTc5MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2
+MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ
+==
 -->
