@@ -1,10 +1,10 @@
 <h1>MY FORK: </h1>
 
 <h3>WHY: </h3>
-I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build as well as a ROCm fork with non-docker install instructions (the only instructions AMD provides). Hope this will help someone get a basic understanding of ML on AMD without the hassles I endured.
+I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassles I endured.
 
 <h3>Pytorch Information: </h3>
-Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alternative to CUDA which is unfortunately not widely used. AMD's official Pytorch/ROCM documentation unfortunately only provides docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
+Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alternative to CUDA which is unfortunately not widely used. AMD's official Pytorch/ROCM documentation unfortunately only provides a docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
 
 * https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs <br>
 * https://lernapparat.de/pytorch-rocm/ <br>
@@ -228,9 +228,9 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM0NjM4MjcsNTAyMTY4MjY5LDMxNj
-I2MDgyMCwtMTM2ODg0ODI0NCwtMTA0MzgyNDIxMywyNzkzMjQw
-ODQsMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1MjI2MDU3OTAsLT
-E2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2NjIyMSw4NjYw
-NzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbLTUxMzcwNzMyNSw1MDIxNjgyNjksMzE2Mj
+YwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEzLDI3OTMyNDA4
+NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMT
+YzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3
+MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
