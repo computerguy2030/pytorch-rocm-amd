@@ -167,6 +167,7 @@ rocm is essentially the AMD version of CUDA.
 <br>
 
 <h3>Troubleshoot: </h3>
+<h4>General:<h4>
 
 * To continue script from specific line:
 ```
@@ -174,7 +175,7 @@ rocm is essentially the AMD version of CUDA.
 ```
 * Most issues I found were caused by dependency issues
 
-* Dependency issues try: `pip install -r requirements.txt` from root pytorch folder
+* Dependency issues try: `pip3 install -r requirements.txt` from root pytorch folder
 * If script fails or is interrupted and you cannot get to bash upon opening terminal, remove last line in ~/.bashrc by:
 
 Under Edit--> Preferences--> Command <br>
@@ -228,7 +229,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzU2NzIzMSwtNzAwMjY0MzksLTc3Mj
+eyJoaXN0b3J5IjpbLTI4NDA5MjM2NCwtNzAwMjY0MzksLTc3Mj
 k2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQs
 LTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
 gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
