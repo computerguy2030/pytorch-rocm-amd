@@ -68,6 +68,7 @@ echo 'EXTRA_GROUPS=video' | sudo tee -a /etc/adduser.conf
 ##For Ubuntu 20:
 ```
 echo 'EXTRA_GROUPS=render' | sudo tee -a /etc/adduser.conf
+sudo usermod -a -G render $LOGNAME
 ```
 * Restart
 
@@ -77,7 +78,7 @@ echo 'EXTRA_GROUPS=render' | sudo tee -a /etc/adduser.conf
 sudo /opt/rocm/bin/rocminfo
 sudo /opt/rocm/opencl/bin/clinfo
 ```
-You should see information about your card
+You should see information about your card. 
 
 --------------------------------------------------------------------------------------
 * Add to PATH and end of bashrc:
@@ -87,7 +88,7 @@ echo 'PATH=$PATH:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin' >
 ```
 --------------------------------------------------------------------------------------
 * Reboot
-
+--------------------------------------------------------------------------------------
 <br><br>
 
 **2. Clone Pytorch**
@@ -225,7 +226,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjM2MDU4MCwtNzcyOTYzODUsNTAyMT
+eyJoaXN0b3J5IjpbLTg3MzE4NTk4MywtNzcyOTYzODUsNTAyMT
 Y4MjY5LDMxNjI2MDgyMCwtMTM2ODg0ODI0NCwtMTA0MzgyNDIx
 MywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1Mj
 I2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2
