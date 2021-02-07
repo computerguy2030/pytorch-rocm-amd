@@ -1,7 +1,7 @@
 <h1>MY FORK: </h1>
 
 <h3>WHY: </h3>
-I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassles I endured.
+I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some useful general useful information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassles I endured.
 
 <h3>Pytorch Information: </h3>
 Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alternative to CUDA which is unfortunately not widely used. AMD's official Pytorch/ROCM documentation unfortunately only provides a docker container and no instructions for bare metal/native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
@@ -20,7 +20,7 @@ Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alter
 	- Script should complete all operations autonomously (reboots etc.) on Ubuntu 18.04, 20.04, or 20.10 versions and should require no intervention except or sudo prompts and reboot confirmations. Other Ubuntu versions, you may need to open the terminal after login/reboot. Non-Ubuntu distros you will need to use and modify manual instructions.
 <br>	
 
-* If you already sucesfuly installed ROCm use:
+* If you already successfully installed ROCm use:
 ```
 tail -n +143 /home/$USER/Downloads/amd_build_script.sh | bash
 ```
@@ -36,7 +36,7 @@ You must uninstall all other kernels except 5.4 or ROCm will not install. I have
 6. Install with pip <br>
 <br>
 
-**1. Install ROCM (Copied from AMD documentation)** <br>
+**1. Install ROCm (Copied from AMD documentation)** <br>
 https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html#supported-operating-systems
 
 * apt install:
@@ -232,11 +232,11 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODY5NjYxOSwtOTY1MzE1MTQxLDE0MT
-Q0NzA0MzEsMTcxNDIzMzg1MywtNzAwMjY0MzksLTc3Mjk2Mzg1
-LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQsLTEwND
-M4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMzgyMTAz
-NzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3MTEyLD
-IxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAx
-NTkxOF19
+eyJoaXN0b3J5IjpbNDY2OTkzNDQ3LC03Mjg2OTY2MTksLTk2NT
+MxNTE0MSwxNDE0NDcwNDMxLDE3MTQyMzM4NTMsLTcwMDI2NDM5
+LC03NzI5NjM4NSw1MDIxNjgyNjksMzE2MjYwODIwLC0xMzY4OD
+Q4MjQ0LC0xMDQzODI0MjEzLDI3OTMyNDA4NCwyMDg3ODk2NjM4
+LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQyMCwtMT
+I5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2
+MTM2XX0=
 -->
