@@ -212,6 +212,7 @@ ROCm:
 
     sudo apt autoremove rocm-opencl rocm-dkms rocm-dev rocm-utils rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
     sudo reboot
+<br>
 Pytorch:
 
     #find with:
@@ -231,7 +232,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTgwMTgyOSwxNzE0MjMzODUzLC03MD
+eyJoaXN0b3J5IjpbMTQxNDQ3MDQzMSwxNzE0MjMzODUzLC03MD
 AyNjQzOSwtNzcyOTYzODUsNTAyMTY4MjY5LDMxNjI2MDgyMCwt
 MTM2ODg0ODI0NCwtMTA0MzgyNDIxMywyNzkzMjQwODQsMjA4Nz
 g5NjYzOCwtMTIzODIxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0
