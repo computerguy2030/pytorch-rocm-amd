@@ -3,12 +3,15 @@
 --------------------------------------------------------------------------------
 <h1>My Fork </h1>
 
-<h3>Changes: </h3>
+<h3>My Changes: </h3>
 
-This fork contains instructions for building Pytorch nativly on AMD: <br>
+This fork contains instructions for building Pytorch natively on AMD: <br>
 [Pytorch on AMD Info/Instructions](MY_FORK.md)
 
-[Install Script](amd_build_script.sh)
+[Concise Install Script](amd_build_script.sh)
+[Verbose Install Script](amd_build_script_verbose.sh)
+
+<br>
 
  **Below is unmodified Pytorch README:**
  
