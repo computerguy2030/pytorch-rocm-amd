@@ -111,7 +111,7 @@ python3 tools/amd_build/build_amd.py
 **4. Create .whl (pip)**
 * Install additional packages:
 ```
-sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip 
+sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip python
 sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust 
 pip3 install -r requirements.txt
 ```
@@ -232,10 +232,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDQ3MDQzMSwxNzE0MjMzODUzLC03MD
-AyNjQzOSwtNzcyOTYzODUsNTAyMTY4MjY5LDMxNjI2MDgyMCwt
-MTM2ODg0ODI0NCwtMTA0MzgyNDIxMywyNzkzMjQwODQsMjA4Nz
-g5NjYzOCwtMTIzODIxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0
-MjAsLTEyOTM5MTcxMTIsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLT
-g1ODQ5NjEzNiwxMDIyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbLTk2NTMxNTE0MSwxNDE0NDcwNDMxLDE3MT
+QyMzM4NTMsLTcwMDI2NDM5LC03NzI5NjM4NSw1MDIxNjgyNjks
+MzE2MjYwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEzLDI3OT
+MyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5
+MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLD
+g2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
