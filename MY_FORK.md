@@ -98,9 +98,11 @@ cd pytorch-rocm-amd
 git submodule sync
 git submodule update --init --recursive
 ```
+This clones my fork; however, the main pytorch branch works too as of 2-7-2020
 <br>
 
 **3. "Hipify" code**
+Converts all CUDA instructions to HIP
 ```
 python3 tools/amd_build/build_amd.py
 ```
@@ -226,7 +228,7 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzE4NTk4MywtNzcyOTYzODUsNTAyMT
+eyJoaXN0b3J5IjpbLTIwMjk3MDk5OCwtNzcyOTYzODUsNTAyMT
 Y4MjY5LDMxNjI2MDgyMCwtMTM2ODg0ODI0NCwtMTA0MzgyNDIx
 MywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1Mj
 I2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2
