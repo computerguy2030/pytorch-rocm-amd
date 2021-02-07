@@ -4,7 +4,7 @@
 I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassles I endured.
 
 <h3>Pytorch Information: </h3>
-Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alternative to CUDA which is unfortunately not widely used. AMD's official Pytorch/ROCM documentation unfortunately only provides a docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
+Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alternative to CUDA which is unfortunately not widely used. AMD's official Pytorch/ROCM documentation unfortunately only provides a docker container and no instructions for bare metal/native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
 
 * https://github.com/aieater/rocm_pytorch_informations/tree/cf102198afb4dd2e94bf2c9724b9d1d54291b210#GPU-visibly-masking-and-multiple-GPUs <br>
 * https://lernapparat.de/pytorch-rocm/ <br>
@@ -12,12 +12,12 @@ Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alter
 <br>
 <h3>Instructions: </h3>
 
-**These instructions/scripts were tested with fresh installs of Ubuntu 18 and 20 so if it doesn't work it's probably your configuration's fault.** 
+**These instructions/scripts were tested with fresh installs of Ubuntu 18 and 20 so if it doesn't work it's probably your configuration's fault. In this case you will have to follow manual instructions posted and do some troubleshooting.** 
 
 * Scripts:
 	included in repository: one concise and one verbose output (Note must uncomment lines for Ubuntu 20 accordingly)
-	Must be in ~/Downloads directory
-	Script will continue after reboot on Ubuntu distros and should require no intervention. Other distros, you may need to open terminal after login and reboot.
+	- Must be in ~/Downloads directory
+	- Script will continue after reboot on Ubuntu distros and should require no intervention. Other distros, you may need to open terminal after login and reboot.
 <br>	
 
 * If you already installed ROCm use: (script must be in "Downloads" directory)
@@ -228,9 +228,9 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzcwNzMyNSw1MDIxNjgyNjksMzE2Mj
-YwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEzLDI3OTMyNDA4
-NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMT
-YzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3
-MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTc3Mjk2Mzg1LDUwMjE2ODI2OSwzMTYyNj
+A4MjAsLTEzNjg4NDgyNDQsLTEwNDM4MjQyMTMsMjc5MzI0MDg0
+LDIwODc4OTY2MzgsLTEyMzgyMTAzNzYsNTIyNjA1NzkwLC0xNj
+MxOTk3NDIwLC0xMjkzOTE3MTEyLDIxMjc3NjYyMjEsODY2MDcx
+MjY3LC04NTg0OTYxMzYsMTAyMjAxNTkxOF19
 -->
