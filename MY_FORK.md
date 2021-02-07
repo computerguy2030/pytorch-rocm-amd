@@ -20,10 +20,11 @@ Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alter
 	- Script should complete all operations autonomously (reboots etc.) on Ubuntu 18.04, 20.04, or 20.10 versions and should require no intervention. Other Ubuntu versions, you may need to open the terminal after login/reboot. Non-Ubuntu distros you will need to use and modify manual instructions.
 <br>	
 
-* If you already installed ROCm use: (script must be in "Downloads" directory)
+* If you already installed ROCm use:
 ```
-tail -n +74 /home/$USER/Downloads/amd_build_script.sh | bash
+tail -n +143 /home/$USER/Downloads/amd_build_script.sh | bash
 ```
+This should do everything but insta
 
 <h3>Requirements </h3>
 You must uninstall all other kernels except 5.4 or ROCm will not install. I have found that after install, ROCm commands still work if you reinstall and boot to other kernels (tested 5.6 and 5.8). Hopefully AMD will fix their seemingly arbitrary 5.4 requirement. 
@@ -228,10 +229,9 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTc5ODI4MCwtNzcyOTYzODUsNTAyMT
-Y4MjY5LDMxNjI2MDgyMCwtMTM2ODg0ODI0NCwtMTA0MzgyNDIx
-MywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzODIxMDM3Niw1Mj
-I2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcxMTIsMjEyNzc2
-NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMDIyMDE1OTE4XX
-0=
+eyJoaXN0b3J5IjpbMjE0ODc0MzMsLTc3Mjk2Mzg1LDUwMjE2OD
+I2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQsLTEwNDM4MjQyMTMs
+Mjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMzgyMTAzNzYsNTIyNj
+A1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3MTEyLDIxMjc3NjYy
+MjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAxNTkxOF19
 -->
