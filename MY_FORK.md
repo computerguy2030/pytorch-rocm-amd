@@ -176,7 +176,7 @@ rocm is essentially the AMD version of CUDA.
 * Most issues I found were caused by dependency issues
 
 * Dependency issues try: `pip3 install -r requirements.txt` then `make clean` from root pytorch folder
-* If script fails or is interrupted and you cannot get to bash upon opening terminal, check your bashrc file and remove last line(s). If impossible
+* If script fails or is interrupted and you cannot get to bash upon opening terminal, check your bashrc file and remove last line(s). If impossible: (gnome terminal)
 
 Under Edit--> Preferences--> Command <br>
 Check "Run a custom command instead of my shell" <br>
@@ -186,7 +186,7 @@ Enter /bin/bash --norc <br><br>
 ```
 dpkg --list | grep linux-image
 ```
-* Set default kernel: (Must set `GRUB_DEFAULT=saved` in /etc/default/grub
+* Set default kernel: (Must set `GRUB_DEFAULT=saved` in /etc/default/grub)
 ```
 grub-set-default 
 ```
@@ -230,10 +230,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MzQ1Mzk5LC03MDAyNjQzOSwtNzcyOT
-YzODUsNTAyMTY4MjY5LDMxNjI2MDgyMCwtMTM2ODg0ODI0NCwt
-MTA0MzgyNDIxMywyNzkzMjQwODQsMjA4Nzg5NjYzOCwtMTIzOD
-IxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0MjAsLTEyOTM5MTcx
-MTIsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5NjEzNiwxMD
-IyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbMTgzNjM4MjE2OSwtNzAwMjY0MzksLTc3Mj
+k2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQs
+LTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
+gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
+MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMT
+AyMjAxNTkxOF19
 -->
