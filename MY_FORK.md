@@ -1,7 +1,7 @@
 <h1>MY FORK: </h1>
 
 <h3>WHY: </h3>
-I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build. Hope this will help someone get a basic understanding of ML on AMD without the hassle I endured.
+I am creating this fork to create a simple guide for installing pytorch on AMD cards and listing some usefull general usefull information on AMD Machine Learning after being incredibly frustrated for several days of being unable to figure out how to install Pytorch while trying out DeOldify, a ML project for colorizing video. I am also creating a DeOldify fork with instructions for an AMD build as well as a ROCm fork with native install instructions. Hope this will help someone get a basic understanding of ML on AMD without the hassle I endured.
 
 <h3>Information: </h3>
 Running Pytorch on AMD requires ROCM platform. ROCM is AMD open source alternative to CUDA which is unfortunatly not widely used. AMD's official Pytorch/ROCM documentaion unfortunatly only provides docker container and no instructions on native install. Instructions posted here are mainly sourced from two tutorials I found after dumpster diving the internet: <br>
@@ -228,9 +228,9 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMTY4MjY5LDMxNjI2MDgyMCwtMTM2OD
-g0ODI0NCwtMTA0MzgyNDIxMywyNzkzMjQwODQsMjA4Nzg5NjYz
-OCwtMTIzODIxMDM3Niw1MjI2MDU3OTAsLTE2MzE5OTc0MjAsLT
-EyOTM5MTcxMTIsMjEyNzc2NjIyMSw4NjYwNzEyNjcsLTg1ODQ5
-NjEzNiwxMDIyMDE1OTE4XX0=
+eyJoaXN0b3J5IjpbMTYxNzI1MDQ4NCw1MDIxNjgyNjksMzE2Mj
+YwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEzLDI3OTMyNDA4
+NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMT
+YzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3
+MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
 -->
