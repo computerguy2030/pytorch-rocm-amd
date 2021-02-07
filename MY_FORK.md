@@ -15,7 +15,7 @@ Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alter
 **These instructions/scripts were tested with fresh installs of Ubuntu 18 and 20 so if it doesn't work it's probably your configuration's fault. In this case you will have to follow manual instructions posted and do some troubleshooting.** 
 
 * Scripts:
-	included in repository: one [concise](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script.sh) and one [verbose](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script_verbose.sh) output (Note must uncomment lines for Ubuntu 20 accordingly). The concise script has the most important and most error prone code displayed while the verbose script has all terminal messages displayed (for comprehensive debugging purposes).
+	included in repository: one [concise](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script.sh) and one [verbose](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script_verbose.sh) output. The concise script has the most important and most error prone code displayed while the verbose script has all terminal messages displayed (for comprehensive debugging purposes).
 	- Must be in ~/Downloads directory
 	- Script should complete all operations autonomously (reboots etc.) on Ubuntu 18.04, 20.04, or 20.10 versions and should require no intervention except or sudo prompts and reboot confirmations. Other Ubuntu versions, you may need to open the terminal after login/reboot. Non-Ubuntu distros you will need to use and modify manual instructions.
 <br>	
@@ -232,11 +232,11 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2OTkzNDQ3LC03Mjg2OTY2MTksLTk2NT
-MxNTE0MSwxNDE0NDcwNDMxLDE3MTQyMzM4NTMsLTcwMDI2NDM5
-LC03NzI5NjM4NSw1MDIxNjgyNjksMzE2MjYwODIwLC0xMzY4OD
-Q4MjQ0LC0xMDQzODI0MjEzLDI3OTMyNDA4NCwyMDg3ODk2NjM4
-LC0xMjM4MjEwMzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQyMCwtMT
-I5MzkxNzExMiwyMTI3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2
-MTM2XX0=
+eyJoaXN0b3J5IjpbLTE1ODY5MjM0NzUsLTcyODY5NjYxOSwtOT
+Y1MzE1MTQxLDE0MTQ0NzA0MzEsMTcxNDIzMzg1MywtNzAwMjY0
+MzksLTc3Mjk2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNj
+g4NDgyNDQsLTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2
+MzgsLTEyMzgyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC
+0xMjkzOTE3MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0
+OTYxMzZdfQ==
 -->
