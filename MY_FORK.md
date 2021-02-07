@@ -218,7 +218,7 @@ Pytorch:
     import torch
     print(torch.__file__)
 
-Remove output folder
+Remove pytorch folder displayed
 In my case:
 
     sudo rm -r /usr/local/lib/python3.6/dist-packages/torch*
@@ -231,10 +231,10 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ2Mzc4OTgsLTcwMDI2NDM5LC03Nz
-I5NjM4NSw1MDIxNjgyNjksMzE2MjYwODIwLC0xMzY4ODQ4MjQ0
-LC0xMDQzODI0MjEzLDI3OTMyNDA4NCwyMDg3ODk2NjM4LC0xMj
-M4MjEwMzc2LDUyMjYwNTc5MCwtMTYzMTk5NzQyMCwtMTI5Mzkx
-NzExMiwyMTI3NzY2MjIxLDg2NjA3MTI2NywtODU4NDk2MTM2LD
-EwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbMTcxNDIzMzg1MywtNzAwMjY0MzksLTc3Mj
+k2Mzg1LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQs
+LTEwNDM4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMz
+gyMTAzNzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3
+MTEyLDIxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMT
+AyMjAxNTkxOF19
 -->
