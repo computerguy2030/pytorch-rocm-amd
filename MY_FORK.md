@@ -17,7 +17,7 @@ Running Pytorch on AMD requires the ROCm platform. ROCm is AMD open source alter
 * Scripts:
 	included in repository: one [concise](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script.sh) and one [verbose](https://github.com/computerguy2030/pytorch-rocm-amd/blob/master/amd_build_script_verbose.sh) output (Note must uncomment lines for Ubuntu 20 accordingly). The concise script has the most important and most error prone code displayed while the verbose script has all terminal messages displayed (for comprehensive debugging purposes).
 	- Must be in ~/Downloads directory
-	- Script should complete all operations autonomously (reboots etc.) on Ubuntu 18.04, 20.04, or 20.10 versions and should require no intervention. Other Ubuntu versions, you may need to open the terminal after login/reboot. Non-Ubuntu distros you will need to use and modify manual instructions.
+	- Script should complete all operations autonomously (reboots etc.) on Ubuntu 18.04, 20.04, or 20.10 versions and should require no intervention except or sudo prompts and reboot confirmations. Other Ubuntu versions, you may need to open the terminal after login/reboot. Non-Ubuntu distros you will need to use and modify manual instructions.
 <br>	
 
 * If you already sucesfuly installed ROCm use:
@@ -232,10 +232,11 @@ In my case:
 * rocminfo (built into ROCm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTMxNTE0MSwxNDE0NDcwNDMxLDE3MT
-QyMzM4NTMsLTcwMDI2NDM5LC03NzI5NjM4NSw1MDIxNjgyNjks
-MzE2MjYwODIwLC0xMzY4ODQ4MjQ0LC0xMDQzODI0MjEzLDI3OT
-MyNDA4NCwyMDg3ODk2NjM4LC0xMjM4MjEwMzc2LDUyMjYwNTc5
-MCwtMTYzMTk5NzQyMCwtMTI5MzkxNzExMiwyMTI3NzY2MjIxLD
-g2NjA3MTI2NywtODU4NDk2MTM2LDEwMjIwMTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTcyODY5NjYxOSwtOTY1MzE1MTQxLDE0MT
+Q0NzA0MzEsMTcxNDIzMzg1MywtNzAwMjY0MzksLTc3Mjk2Mzg1
+LDUwMjE2ODI2OSwzMTYyNjA4MjAsLTEzNjg4NDgyNDQsLTEwND
+M4MjQyMTMsMjc5MzI0MDg0LDIwODc4OTY2MzgsLTEyMzgyMTAz
+NzYsNTIyNjA1NzkwLC0xNjMxOTk3NDIwLC0xMjkzOTE3MTEyLD
+IxMjc3NjYyMjEsODY2MDcxMjY3LC04NTg0OTYxMzYsMTAyMjAx
+NTkxOF19
 -->
