@@ -23,7 +23,7 @@ if lsb_release -d | grep Ubuntu; then
     Comment=Start Terminal On Startup
     ' > ~/.config/autostart/gnome-terminal.desktop
     #Enable auto login
-    sudo sed -i 's/.*AutomaticLogin.*/ /' /etc/gdm3/custom.conf && sudo sed -i "/\[daemon\]/a AutomaticLoginEnable=True\nAutomaticLogin=$USER" /etc/gdm3/custom.conf || exit
+    sudo sed -i 's/.*AutomaticLogin.*/ /' /etc/gdm3/custom.conf && sudo sed -i "/\[daemon\]/a AutomaticLoginEnable=True\nAutomaticLogin=$USER" /etc/gdm3/custom.conf || { sed -i 's/bash ~\/Downloads\/amd_build_script.sh//' ~/.bashrc; exit; }
 
     #Check for, Install, and boot 5.4 kernel
     if ! uname -r | grep 5.4; then
