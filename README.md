@@ -9,6 +9,7 @@ This fork contains instructions for building Pytorch natively on AMD: <br>
 [Pytorch on AMD Info/Instructions](MY_FORK.md)
 
 [Concise Install Script](amd_build_script.sh)
+<br>
 [Verbose Install Script](amd_build_script_verbose.sh)
 
 <br>
